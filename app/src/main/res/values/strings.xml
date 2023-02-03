@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Very Simple To Do List</string>
+    <string name="AddButtonName">ADD</string>
+    <string name="NewToDoItemHint">Add To Do item here....</string>
 </resources>
