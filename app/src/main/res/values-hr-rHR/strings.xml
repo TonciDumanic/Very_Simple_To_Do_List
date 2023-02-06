@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jako jednostavana To Do lista</string>
+    <string name="AddButtonName">DODAJ</string>
+    <string name="NewToDoItemHint">Ovdje upiši To Do zadatak...</string>
+</resources>
