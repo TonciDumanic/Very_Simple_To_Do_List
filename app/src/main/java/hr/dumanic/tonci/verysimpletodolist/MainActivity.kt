@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        listViewToDos.setOnItemClickListener { adapertView, view, position, id ->
+        listViewToDos.setOnItemClickListener { adapterView, view, position, id ->
 
             val deleteAlert = AlertDialog.Builder(this)
             deleteAlert.setTitle("Delete To Do")
