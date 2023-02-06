@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Jako jednostavana To Do lista</string>
+    <string name="app_name">Jako jednostavna To Do lista</string>
     <string name="AddButtonName">DODAJ</string>
     <string name="NewToDoItemHint">Ovdje upiši To Do zadatak...</string>
+    <string name="deleteMessage">Želiš li obrisati ovaj zadatak?</string>
+    <string name="yesStr">Da</string>
+    <string name="noStr">Ne</string>
+    <string name="deleteToDo">Izbriši To Do zadatak</string>
 </resources>

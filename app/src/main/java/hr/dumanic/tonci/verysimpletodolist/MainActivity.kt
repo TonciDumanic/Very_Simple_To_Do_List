@@ -51,14 +51,14 @@ class MainActivity : AppCompatActivity() {
         listViewToDos.setOnItemClickListener { adapterView, view, position, id ->
 
             val deleteAlert = AlertDialog.Builder(this)
-            deleteAlert.setTitle("Delete To Do")
-            deleteAlert.setMessage("Do you want to delete this item from the To Do list?")
+            deleteAlert.setTitle(R.string.deleteToDo)
+            deleteAlert.setMessage(R.string.deleteMessage)
             deleteAlert.setCancelable(false)
             deleteAlert.setNegativeButton(
-                "No",
+                R.string.noStr,
                 DialogInterface.OnClickListener { dialog, which -> dialog.cancel() })
 
-            deleteAlert.setPositiveButton("Yes", DialogInterface.OnClickListener { dialog, which ->
+            deleteAlert.setPositiveButton(R.string.yesStr, DialogInterface.OnClickListener { dialog, which ->
                 toDosArrayList.removeAt(position)
                 arrayAdapter.notifyDataSetChanged()
                 fileHelper.writeData(toDosArrayList, this@MainActivity)

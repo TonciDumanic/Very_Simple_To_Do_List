@@ -3,4 +3,8 @@
     <string name="app_name">Lista muy simple de hacer</string>
     <string name="AddButtonName">AGREGAR</string>
     <string name="NewToDoItemHint">Agregar elemento para hacer aquí....</string>
+    <string name="deleteMessage">¿Desea eliminar este elemento de la lista de tareas pendientes?</string>
+    <string name="yesStr">" SÍ"</string>
+    <string name="noStr">No</string>
+    <string name="deleteToDo">"Eliminar para hacer "</string>
 </resources>
